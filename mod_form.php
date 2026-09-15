@@ -46,7 +46,7 @@ class mod_rank_mod_form extends moodleform_mod {
 
         $this->standard_intro_elements();
 
-        $mform->addElement("header", "ranksettings", get_string("ranksettings", "rank"));
+        $mform->addElement("html", html_writer::tag("h3", get_string("ranksettings", "rank")));
         $mform->addElement("editor", "instructions_editor", get_string("instructions", "rank"), null,
             ["maxfiles" => 0, "context" => $this->get_context()]);
         $mform->setType("instructions_editor", PARAM_RAW);

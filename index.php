@@ -28,7 +28,7 @@ $id = required_param("id", PARAM_INT);
 $course = get_course($id);
 require_course_login($course);
 
-$PAGE->set_url(new moodle_url("/mod/rank/index.php", ["id" => $id]));
+$PAGE->set_url(new moodle_url("/mod/rank/", ["id" => $id]));
 $PAGE->set_pagelayout("incourse");
 $PAGE->set_title(get_string("modulenameplural", "rank"));
 $PAGE->set_heading($course->fullname);
