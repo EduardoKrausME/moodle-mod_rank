@@ -1,0 +1,10 @@
+.mod-rank .rank-handle {
+    cursor: grab;
+    font-size: 1.2rem;
+    line-height: 1;
+    user-select: none;
+}
+
+.mod-rank [draggable="true"] {
+    cursor: move;
+}
