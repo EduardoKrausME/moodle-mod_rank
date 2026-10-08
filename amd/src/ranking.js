@@ -16,7 +16,7 @@
 /**
  * ranking.js
  *
- * @package   mod_rank
+ * @module mod_rank/ranking
  * @copyright 2026 Eduardo Kraus {@link https://eduardokraus.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
