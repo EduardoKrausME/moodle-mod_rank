@@ -131,7 +131,7 @@ class mod_rank_mod_form extends moodleform_mod {
         if ($hasgap) {
             $errors["rankitem1"] = get_string("itemsgap", "rank");
         }
-        if (count($items) !== count(array_unique(array_map("core_text::strtolower", $items)))) {
+        if (count($items) !== count(array_unique(array_map("strtolower", $items)))) {
             $errors["rankitem1"] = get_string("duplicateitems", "rank");
         }
 
