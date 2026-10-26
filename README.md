@@ -12,4 +12,4 @@ The plugin requires **Moodle 4.0 or newer** and uses Moodle's existing interface
 
 Screenshots prepared for the plugin: [student activity](https://github.com/EduardoKrausME/marketplace-plugins/blob/master/screenshots/mod_rank/new-1.png) and [additional view](https://github.com/EduardoKrausME/marketplace-plugins/blob/master/screenshots/mod_rank/new-2.png).
 
-For Moodle's **Install plugin from ZIP file** option, download `rank.zip` from a tagged [GitHub release](https://github.com/EduardoKrausME/moodle-mod_rank/releases), rather than the generic GitHub *Source code (zip)* download. The latter uses GitHub's generated root-directory name, not the required `rank/` directory.
+
