@@ -2,6 +2,14 @@
 
 This changelog documents only the two most recent published GitHub releases. Each entry describes the verified changes between its release tag and the immediately preceding published release. Later changes on `master` are excluded.
 
+## 1.1.9 - 2026-11-01
+
+- Updated ranking JavaScript sources and generated AMD build assets.
+- Normalized Mustache and PHP headers and removed installation guidance from the README.
+- Updated AMD build and release workflow configuration.
+
+**Full comparison:** [1.1.8...1.1.9](https://github.com/EduardoKrausME/moodle-mod_rank/compare/1.1.8...1.1.9)
+
 ## 1.1.8 - 2026-10-15
 
 ### Changed
